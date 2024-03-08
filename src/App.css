@@ -1,38 +1,239 @@
-.App {
-  text-align: center;
+.leftSide a {
+  padding: 2px 13px;
+}
+.site-wholespace {
+  height: 100vh;
+}
+.leftSide.active {
+  position: fixed;
+  width: 240px;
+}
+.menuSide.active .logosec-content{
+  width: 240px;
+  display: block;
+  margin-left: 18px;
+}
+.menuSide .logosec-content{
+  width: 68px;
+  display: none;
+}
+.menuSide.active .menuicon{
+  float: right;
+  margin-right: 18px;
+}
+.menuSide.active{
+  width: 240px;
+}
+.menuSide .menuicon{
+  width: 34px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+.menuSide{
+  width: 68px;
+  margin-right: unset;
+  
+}
+.menuSide.active .menusec-content{
+  width: 240px;
+  display: block;
+}
+.menuSide .menusec-content{
+  width: 68px !important;
+  display: block !important;
+}
+.nameSide.active .nameside-content{
+  width: 200px;
+  display: block;
+}
+.nameSide .nameside-content{
+  width: 68px;
+  display: none;
+}
+.nameside .logoside-content{
+  width: 68px;
+  display: block;
+}
+.leftSide { 
+  width: 68px;
+  overflow: scroll;
+  height: 100vh;
+  position: fixed;
+  padding-bottom: 40px;
+}
+.rightSide {
+  transition: unset;
+}
+.rightSide {
+  height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  padding-right: 28px;
+}
+.leftSide .menuNav {
+  opacity: 0;
+}
+.menuNav {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 2.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  cursor: pointer;
+}
+.leftSide.active a p + span {
+  margin-left: 0;
+  opacity: 1;
+}
+.leftSide.active .logo-imgcontent{
+  opacity: 1;
+  width: 135px;
+}
+.leftSide .logo-imgcontent{
+  opacity: 0;
+  width: 68px;
+}
+.leftSide.active .menu{
+  opacity: 1;
+  width: 240px;
+  cursor: pointer;
+}
+.leftSide .menu{
+  opacity: 1;
+  width: 40px;
+}
+.leftSide {
+  width: 68px;
+  overflow: scroll;
+  height: 100vh;
+  position: fixed;
+  padding-bottom: 40px;
+}
+.leftSide::-webkit-scrollbar {
+  width: 0;
+}
+.leftSide ::-webkit-scrollbar-track {
+  background: transparent;
+}
+.leftSide::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+.space-progressbar {
+  padding: 10px 13px;
+}
+.leftSide .menuNav {
+  opacity: 0;
+}
+.leftSide.active {
+  position: fixed;
+  width: 240px;
+}
+.leftSide a {
+  padding: 2px 13px;
+}
+.leftSide a p + span {
+  margin-left: -180px;
+  opacity: 0;
+  padding-left: 20px;
+}
+.leftSide .logo-imgcontent{
+  opacity: 0;
+}
+.leftSide.active .logo-imgcontent{
+  opacity: 1;
+}
+.filter-dropdown {
+  z-index: 99;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.leftSide.active a p + span {
+  margin-left: 0;
+  opacity: 1;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (min-width: 1024px) {
+  .lg\:w-\[280px\] {
+    width: 140px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (min-width: 1024px) {
+  .lg\:w-\[260px\] {
+    width: 98px;
+  }
+}
+.leftSide.active .menuCount {
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  padding: 13px 16px;
+  color: #ffffff;
+  background-color: #ff6600;
+}
+.leftSide .menuCount {
+  padding: 12px;
+}
+.leftSide .space-progressbar {
+  display: none;
+}
+.leftSide.active .space-progressbar {
+  display: block;
+}
+.App-loading {
+  min-height: 80vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.rightSide {
+  height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  padding-right: 28px;
+}
+.rightSide {
+  transition: unset;
+}
+.rightSideCardDetail{
+  display: block;
+}
+.rightSideCardDetailmbl{
+  display: none;
+}
+.sidebar {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+.name-at-bottom {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: auto; 
+}
+.chirs-content{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 4px;
+  color: #E4E854;
+}
+.portal-content{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
 }

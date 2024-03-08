@@ -1,0 +1,29 @@
+{
+    "allUsers": [
+      {
+        "id": 0,
+        "username": "vijay",
+        "password": "vijaymano"
+      },
+      {
+        "id": 1,
+        "username": "Naveen",
+        "password": "naveen"
+      },
+      {
+        "id": 2,
+        "username": "Thafzil",
+        "password": "thafzil"
+      },
+      {
+        "id": 3,
+        "username": "vikram",
+        "password": "vikram"
+      },
+      {
+        "id": 4,
+        "username": "Sweetha",
+        "password": "sweetha"
+      }
+    ]
+}
